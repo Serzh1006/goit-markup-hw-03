@@ -68,6 +68,7 @@ img {
 
 .nav-logo,
 .footer-logo {
+  display: inline-block;
   font-family: var(--second-family);
   font-weight: 700;
   text-decoration: none;
@@ -304,13 +305,16 @@ img {
   background-color: var(--navy-blue);
 }
 
+.footer-logo {
+  margin-bottom: 16px;
+}
+
 .footer-logo-web {
   color: var(--cloud);
 }
 
 .footer-text {
   width: 264px;
-  margin-top: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
