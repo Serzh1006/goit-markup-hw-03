@@ -183,7 +183,7 @@ img {
   list-style: none;
 }
 .advan-list-item {
-  width: calc((1158px - 24px * 3) / 4);
+  width: calc((1128px - 24px * 3) / 4);
 }
 .advan-list-item-title {
   font-weight: 500;
@@ -219,7 +219,7 @@ img {
 }
 .team-list-item {
   text-align: center;
-  width: calc((1158px - 24px * 3) / 4);
+  width: calc((1128px - 24px * 3) / 4);
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -266,18 +266,26 @@ img {
   list-style: none;
 }
 .portfolio-list-item {
-  width: calc((1158px - 24px * 2) / 3);
+  width: calc((1128px - 24px * 2) / 3);
   border-bottom: 1px solid var(--cornflower);
   border-left: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
 }
+
 .portfolio-list-item-img {
+  object-fit: cover;
 }
+
+.content-wrap {
+  padding: 32px 32px 32px 16px;
+}
+
 .portfolio-list-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: var(--navy-blue);
 }
 .portfolio-list-item-text {
@@ -288,6 +296,8 @@ img {
 /*---------- footer ----------*/
 
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--navy-blue);
 }
 
@@ -296,6 +306,8 @@ img {
 }
 
 .footer-text {
+  width: 264px;
+  margin-top: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
