@@ -267,17 +267,16 @@ img {
 }
 .portfolio-list-item {
   width: calc((1128px - 24px * 2) / 3);
-  border-bottom: 1px solid var(--cornflower);
-  border-left: 1px solid var(--cornflower);
-  border-right: 1px solid var(--cornflower);
 }
 
 .portfolio-list-item-img {
-  object-fit: cover;
 }
 
 .content-wrap {
   padding: 32px 32px 32px 16px;
+  border-bottom: 1px solid var(--cornflower);
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
 }
 
 .portfolio-list-item-title {
